@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.login{
+    background-image: url(images.webp);
+    background-size: cover;
+    height: 220px;
+    width: 200px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.5px 0.4px 0.5px 1px rgb(194, 187, 187);
+}
+img{
+    height: 220px;
+    width: 200px;
+    margin-top: 600px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+input{
+     border-radius: 5px;
+     color:red; 
+}
+button{
+    background-color: aqua;
+    border-radius: 12px;
+
+}
+
+#feed{
+    display: flex;
+    flex-direction: column;
+}
+input::placeholder{
+    color: blue;
+}
+button:hover{
+    background-color: red;
+}
+#label{
+    color: red;
+}

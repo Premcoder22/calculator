@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    
+
+
+
+}
+
+button{
+    padding: 20px;
+     gap: 30pxb ;
+    border-radius: 20px;
+    box: shadow -8px -8px 15px rgba(255,255,255,0.1) ;
+    cursor: pointer;
+    
+}
+.equalbtn{
+    background-color: #f82d7b;
+}
+.operator{
+    color: hsl(71, 70%, 38%);
+}
